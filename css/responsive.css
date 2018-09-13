@@ -295,6 +295,7 @@
     }
     .main_menu a i {
         margin-left: -70%;
+        margin-top: -8px;
     }
     .cross {
         margin-top: 6%;
@@ -496,9 +497,9 @@
         font-size: 30px;
     }
     .logo_container img {
-        height: 70px;
-width: 85px;
-margin-top: -8px;
+        height: 60px;
+        width: 107px;
+        margin-top: -8px;
     }
     .offset_menu a {
         margin-left: -139%;
@@ -546,11 +547,18 @@ margin-top: -8px;
     }
     .cd-headline span {
         font-size: 18px;
+        padding-top: 18px;
         margin-left: 0%;
     }
-    .about_me {
+    .about_ii {
     margin-top: 170px;
-}
+    }
+    .type_text h1{
+        margin-top: 0;
+    }
+    .about_me {
+        margin-top: 2em;
+    }
     .gap {
         margin-top: 4%;
     }

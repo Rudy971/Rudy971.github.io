@@ -26,7 +26,6 @@ Home page :
  
  9 / FOOTER PART.
 */
-/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Baloo+Paaji:400|Sacramento'); */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Lobster|Nanum+Brush+Script');
 * {
 	margin: 0;
@@ -86,7 +85,7 @@ i {
 
 .common {
 	margin-bottom: 80px;
-	padding-top: 80px;
+	padding-top: 40px;
 }
 
 .heading h2 {
@@ -221,8 +220,8 @@ i {
 }
 
 .offset_menu a {
-	font-size: 20px;
-	line-height: 52px;
+	font-size: 2em;
+	line-height: 2em;
 	font-family: 'Nanum Brush Script', cursive;
 	font-weight: 400;
 	color: #ffffff;
@@ -299,7 +298,7 @@ i {
 
 .banner_text h2 {
 	font-size: 6em;
-	line-height: 1.75em;
+	line-height: 1.5em;
 	color: #231f20;
 	font-family: 'Lobster', cursive;
 	font-weight: 400;
@@ -322,7 +321,7 @@ i {
 
 .banner_image img {
 	position: absolute;
-	margin-top: 36.5%;
+	margin-top: 40%;
 	left: 50%;
     transform: translate(-50%,-50%);
 
@@ -370,7 +369,7 @@ i {
 	margin: -75px 0 0 -75px;
 	border-radius: 50%;
 	border: 3px solid transparent;
-	border-top-color: #555;
+	border-top-color: #550000;
 	-webkit-animation: spin 2s linear infinite;
 	animation: spin 2s linear infinite;
 
@@ -399,7 +398,7 @@ i {
 	bottom: 15px;
 	border-radius: 50%;
 	border: 3px solid transparent;
-	border-top-color: #707070;
+	border-top-color: #aa0000;
 	-webkit-animation: spin 1.5s linear infinite;
 	animation: spin 1.5s linear infinite;
 }
@@ -452,6 +451,11 @@ i {
 	font-family: 'Nanum Brush Script', cursive;
 	font-weight: 400;
     line-height: 24px;
+}
+
+.about_social li {
+	float: left;
+	padding: 0.5em;
 }
 
 .about_social ul li i {
@@ -995,7 +999,8 @@ ul.filter > li > a:focus {
 }
 
 .work_with p {
-	font-size: 14px;
+	font-size: 1em;
+	line-height: 3em;
 	color: #ffffff;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -1212,6 +1217,8 @@ ul.filter > li > a:focus {
 .form {
 	background: #ffffff;
 	width: 100%;
+	min-height: 24em;
+	margin-bottom: 2em;
 	padding: 44px 20px 7px 20px;
 	border-radius: 5px;
 	border: transparent;
@@ -1955,8 +1962,8 @@ newsletter class end
 	-o-transform: scale(1.2);
 	-moz-transform: scale(1.2);
 	-webkit-transform: scale(1.2);
-	-webkit-box-shadow: 0px 0px 10px 0px rgba(105, 90, 166, 0.5);
-	-moz-box-shadow: 0px 0px 10px 0px rgba(105, 90, 166, 0.5);
-	box-shadow: 0px 0px 10px 0px rgba(105, 90, 166, 0.5);
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(100, 45, 51, 0.5);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(100, 45, 51, 0.5);
+	box-shadow: 0px 0px 10px 0px rgba(100, 45, 51, 0.5);
 
 }
